@@ -5,7 +5,7 @@ def cap_lit(instring):
 
 def first_cap(instring):
 
-    """ функция для возврата строки пользователя с первой заглавной буквой"""
+    """ функция для возврата строки пользователя с первой заглавной буквой, строка для конфликта """
     words = instring.split()
     cap_words = [word.capitalize() for word in words]
     return ''.join(cap_words)
